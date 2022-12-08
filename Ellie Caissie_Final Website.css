@@ -1,0 +1,461 @@
+.topbar { /*fixed top bar*/
+  background-color: #f3cad5;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.signature /* logo signature */ {
+  padding: 0px 0px 10px 10px;
+  width: auto;
+}
+.flowers1 /* flowers on top left */ {
+  height: 80px;
+  float: left;
+  position: relative;
+  padding-left: 20px;
+}
+.flowers2 /* flowers on top right */ {
+  height: 80px;
+  float: right;
+  positon: relative;
+  margin-top: -135px;
+}
+.pinkline /* dark pink line above navbar */ {
+  background-color: #d97d9c;
+  height: 83px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.navbar /* navigation bar with buttons */ {
+  background-color: white;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 83px;
+  left: 0px;
+  z-index: 1;
+}
+.pinkphotobg /* pink div behind homepage image */ {
+  background-color: #f3cad5;
+  height: 850px;
+  width: 100%;
+  padding: 165px 0 0 0;
+}
+.pinkelliephotobg /* pink div behind about page image */ {
+  background-color: #f3cad5;
+  height: 90%;
+  width: 100%;
+  margin: 145px 0 0 0;
+}
+.welcomebox /*on about page image*/ {
+  width: 400px;
+  height: 400px;
+  background-color: #f3cad5;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+  margin-left: 47%;
+  margin-top: 105px;
+}
+.welcome {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+.ellieabout /* image of me on about page */ {
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  padding-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.selfidentitytext /*photo title on homepage*/ {
+  height: 659px;
+  font-size: 18px;
+  color: #d97d9c;
+  font-family: 'Open Sans', sans-serif;
+	position: absolute;
+top:590px;
+	left: 10px;
+	
+}
+button1 /* home button */ {
+  width: 11%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 7.57%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+button2 /* about button */ {
+  width: 11%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 18.28%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+button3 /* contact button */ {
+  width: 11%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 31.0%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+button4 /* photography button */ {
+  width: 11%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 45.28%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+button5 /* artwork button */ {
+  width: 11%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 60.50%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+button6 /* design and sewing button */ {
+  width: 18%;
+  background-color: white;
+  border: none;
+  padding: 8px 10px 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 72.8%;
+  top: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.greenbg /*behind image carousel on homepage and about*/ {
+  background-color: #d1e9d0;
+  height: 450px;
+  width: 100%;
+  margin: 16px 0 0 0;
+}
+.lefthandaboutbox {
+  width: 300px;
+  height: 260px;
+  background-color: white;
+  float: left;
+  margin-left: 18%;
+  margin-top: 7.25%;
+  color: #d97d9c;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.meowyycmountain {
+  margin-top: 2.3%;
+  margin-left: 14%;
+  height: 384px;
+  width: 484px;
+}
+* {
+  box-sizing: border-box
+}
+/* Slideshow container for image scroll */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-left: 14%;
+  padding-right: 30%;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: 5%;
+  margin-right: 15.5%;
+  margin-top: -22px;
+  padding: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 60px; /*this changes the size of arrows! */
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.3s;
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+.greenpinkpic /*on homepage*/ {
+  background-image: url(greenpinkwork.JPEG);
+  width: 730px;
+  height: 659px;
+position: relative;
+  margin: auto;
+}
+.flowers1 /* in Navbar */ {
+  background-image: url(flowers.png);
+  height: 80px;
+  width: 42.5%;
+}
+.flowers2 /* in Navbar */ {
+  background-image: url(flowers.png);
+  height: 80px;
+}
+.lightgreenbg /* on contact page */ {
+  background-color: #d1e9d0;
+  height: 850px;
+  width: 100%;
+  z-index: -1;
+  margin: 145px 0 0 0;
+  background: url("flowersgreenbg.jpg") repeat fixed;
+}
+.footer {
+  background-color: #F3CAD5;
+  margin-top: 15px;
+  height: 80px;
+}
+.pinkbgphotography /*pink background on photography page */ {
+  background-color: #f3cad5;
+  height: 1500px;
+  width: auto;
+  margin-top: -80px;
+}
+.photogallery /*Photo Gallery*/ {
+  padding-top: 200px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 32%;
+  padding-right: 32%;
+}
+.photocollage {
+  height: 900px;
+  width: auto;
+  margin-left: 18%;
+  margin-top: 45px;
+}
+.thinline {
+  background-color: #d97d9c;
+  height: 2px;
+  width: 500px;
+  margin-top: -45px;
+  margin-bottom: 20px;
+  margin-left: 32%;
+}
+.pinkbgartworkdesign /*pink background for artwork and design/sewing page*/ {
+  background-color: #F3CAD5;
+  height: 670px;
+  width: 100%;
+  margin-bottom: 75px;
+}
+.flex-container {
+  display: flex;
+}
+.formcontainer {
+  background-color: #F3CAD5;
+  width: 100%;
+  float: right;
+  margin: 40px;
+}
+.flex-container > div {
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  flex-grow: 1;
+  font-size: 15pt;
+  font-family: 'Open Sans', sans-serif;
+}
+.text-box {
+  width: 100%;
+  border: solid white;
+  color: white;
+  background-color: #F3CAD5;
+  font-size: 14pt;
+  font-family: 'Open Sans', sans-serif;
+}
+input.text-box /* for firstname, lastname, email, business name, insta handle */ {
+	height: 40px;
+}
+textarea.text-box /*message*/ {
+  height: 200px;
+}
+.submit-button {
+	background-color: #F3CAD5;
+	border:solid white;
+	color: white;
+	font-size: 30pt;
+	margin-bottom: 30px;
+}
+.submit-button:hover{
+	cursor:pointer;
+	background-color: white;
+	border:solid #F3CAD5;
+	color: #F3CAD5;
+}
+.getintouchbox {
+	background-color: white;
+	border:7px solid #F3CAD5;
+	width: 300px;
+	height: 280px;
+	margin-top: 200px;
+	margin-left: 85px;
+}
+.getintouch {
+	font-size: 30pt;
+	color: #F3CAD5;
+	padding: 0;
+	text-align: center;
+	margin-top: 25px;
+}
+.getintouchpara {
+	font-size: 15pt;
+	color: #F3CAD5;
+	padding: 0;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.artdiv {
+	height: 600px;
+	margin-top: 144px;
+}
+.paintbrushimg {
+	margin-left: 210px;
+	margin-right: 170px;
+	padding-top: 40px;
+	float: left;
+}
+.arttitle {
+	padding-top: 80px;
+	margin-left: 30px;
+}
+.artwork{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  text-align: left;
+  padding-right: 210px;
+}
+.artworkpara {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding-right: 210px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -30px;
+}
+.pinkbgdesignpage{
+  background-color: #F3CAD5;
+  height: 760px;
+  width: 100%;
+  margin-bottom: 73px;
+}
+.designdiv {
+	padding-top: 137px;
+	margin-left: 30px;
+}
+.dressformimg {
+	margin-left: 180px;
+	margin-right: 170px;
+	padding-top: 40px;
+	float: left;
+}
+.designtitle {
+	padding-top: 45px;
+	margin-left: 30px;
+}
+.designwork{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  text-align: left;
+  padding-right: 209px;
+}
+.designworkpara {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding-right: 210px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -30px;
+}
